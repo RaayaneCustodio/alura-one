@@ -1,6 +1,6 @@
 //  alert("Boas Vindas ao nosso site");
-// // let nome = "Lua";
-// // let idade = 25;
+// // let nome;
+// // let idade;
 // numeroDeVendas = 50;
 // saldoDisponivel = 1000;
 // let mensagemDeErro = "Erro! Preencha todos os campos";
@@ -81,8 +81,42 @@
 
 
 
-// ex7 let saldoDaConta = prompt("Digite o valor da sua conta");
+// let saldoDaConta = prompt("Digite o valor da sua conta");
 // alert("O saldo da sua conta é " +saldoDaConta )
 
-// ex8 let nome = prompt ("Digite seu nome");
+
+//  let nome = prompt ("Digite seu nome");
 // alert("Bem Vindo (a) " +nome);
+
+
+// contador = 1;
+// while(contador <= 10) {
+//     alert(`Os numeros sao ${contador}`);
+//     contador++;
+// }
+
+
+
+// contador = 10;
+// while(contador>=1){
+//     alert (`Os numeros sao ${contador}`);
+//     contador--;
+// }
+
+
+// let numero = prompt ("Digite um valor para a contagem regressiva");
+
+// while (numero >=0){
+//     alert(`Os numero são ${numero}`);
+//     numero--;
+// }
+
+let numeroMaximo = prompt("Digite um número para a contagem progregressiva:");;
+let contador = 0;
+
+while (contador <= numeroMaximo) {
+    alert(`Os numeros são ${contador}`);
+    contador++
+}
+
+
